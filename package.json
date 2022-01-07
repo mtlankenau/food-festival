@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "start:dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,13 +22,14 @@
   "homepage": "https://github.com/mtlankenau/food-festival#readme",
   "devDependencies": {
     "file-loader": "^6.2.0",
-    "webpack": "^4.46.0",
-    "webpack-bundle-analyzer": "^4.5.0",
-    "webpack-cli": "^4.6.0"
+    "image-webpack-loader": "^6.0.0",
+    "webpack": "^5.65.0",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "image-webpack-loader": "^8.0.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.0"
   }
